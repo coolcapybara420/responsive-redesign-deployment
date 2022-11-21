@@ -1,0 +1,135 @@
+#cs1300-gallery {
+  background-color: lightblue;
+}
+
+/* Uncomment below if images are way too big.
+Selects all image tags and makes them 500px;
+ */
+/*img {*/
+/*  width: 500px;*/
+/*}*/
+
+.gallery-container {
+  /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#title-banner img {
+  max-width: 80%;
+  height: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#farm-pic {
+  width: 75%;
+  height: auto;
+}
+
+#farm-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#farm-images img {
+  max-width: 80%;
+  height: auto;
+  margin: 1vh 1vw;
+}
+
+#navbar-text {
+  color:brown;
+}
+
+
+h1 {
+  font-size: 300%;
+  text-align: center;
+  font-family: open-sans, sans-serif;
+  padding: 3vh;
+}
+
+h2 {
+  padding: 1vh;
+  text-align: center;
+  font-family: open-sans, sans-serif;
+}
+
+h3 {
+  padding: 1vh;
+  text-align: center;
+  font-family: open-sans, sans-serif;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  background-color: #fff;
+}  
+.navbar .navbar-nav .nav-link {
+padding: 0.6em;
+font-size: 1.2em;
+transition: all 0.5s;
+}
+.navbar .navbar-brand {
+padding: 0 0.6em;
+font-size: 1.5em;
+font-weight: bold;
+}
+@media only screen and (min-width: 992px) {
+.navbar {
+  padding: 0;
+}
+.navbar .navbar-nav .nav-link {
+  padding: 1em 0.7em;
+}
+.navbar .navbar-brand {
+  padding: 0 0.8em;
+}
+}
+
+#navbarSupportedContent {
+  text-align: center;
+  justify-content: center;
+}
+
+.navbar-collapse {
+  justify-content: center;
+}
+
+#date-picker {
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 4vh;
+}
+
+footer {
+  background-color: #f5bc42;
+}
+
+.text-uppercase {
+  text-align: center;
+}
+
+.text-uppercase p {
+  margin-bottom: 0em;
+  margin-top: 0em;
+}
+
+.hours-text {
+  display: flex;
+  justify-content: space-between;
+}
